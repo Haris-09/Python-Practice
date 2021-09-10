@@ -33,3 +33,12 @@ Two numbers, x and y
 
 ## Output
 True if x and y are in the range and False otherwise.
+# Challenge 4: String Transformation
+## Problem Statement
+Given a getStr() function, write the necessary sequence of operations to transform the string (containing three literals) in such a way that every literal is tripled​ respectively.
+
+## Input
+A string
+
+## Output
+Triple of every string literal
