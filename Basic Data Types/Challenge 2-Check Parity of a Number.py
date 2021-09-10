@@ -1,15 +1,6 @@
 def checkParity(n):
-  if(n%2==0):
-    result=0
-  else:
-    result=1
+  result = (n % 2)
   return result
-
-result=checkParity(2)
-print(result)
-result=checkParity(4)
-print(result)
-result=checkParity(7)
-print(result)
-result=checkParity(11)
-print(result)
+  
+print("Odd parity", checkParity(17))
+print("Even parity", checkParity(16))
