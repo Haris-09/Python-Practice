@@ -1,10 +1,5 @@
 def inRange(x, y):
-  if(x<1/3<y):
-    return True
-  else:
-    return False
+  return (x < 1/3 < y)
 
-print(inRange(0, 1))
-print(inRange(0.1, 0.3))
-print(inRange(0.2, 1.8))
-print(inRange(0.5, 1))
+print(inRange(-1, 3))
+print(inRange(2, 3))
