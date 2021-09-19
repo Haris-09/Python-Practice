@@ -54,7 +54,31 @@ A string
 The first occurrence of “b” and “ccc” in the string
 
 ## Sample Input
+```
 aaabbbccc
+```
 
 ## Sample Output
+```
 [3, 6]
+```
+
+# Challenge 6: Lowercase to Uppercase
+## Problem Statement
+Given a function changeCase(s), the task is to convert the strings from upper case to lower case.
+
+## Input
+A string in upper case
+
+## Output
+Change case of the string in lower case
+
+## Sample Input
+```
+“AAA BBB CCC”
+```
+
+## Sample Output
+```
+“aaa bbb ccc”
+```
